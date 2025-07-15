@@ -1,0 +1,18 @@
+body {
+    background-color: #F4EBD3;
+}
+#button_box{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+}
+.button{
+    width: 350px;
+    height: 60px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 17px;
+}
