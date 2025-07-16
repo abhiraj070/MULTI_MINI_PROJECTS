@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color: rgb(231, 238, 231);
 }
 #big_box{
     display: flex;
@@ -10,7 +10,6 @@ body{
     border: 4px solid black;
     margin-top: 50px;
     border-radius: 15px;
-    background-color: rgb(255, 183, 0);
 }
 #text-1{
     display: flex;
@@ -30,30 +29,33 @@ body{
 }
 input{
     height: 40px;
-    width: 90px;
+    width: 150px;
     font-size: larger;
-    border: 3px solid black;
-    border-radius:5px ;
+    border: 1px solid black;
+    border-radius:7px ;
 }
 #Submit{
     font-size: large;
     height:50px;
-    width:90px;
-    border-radius: 10px;
+    width:150px;
+    border-radius: 7px;
     cursor: pointer;
-    background-color: green;
+    background-color: rgb(9, 120, 231);
+    color: white;
+
 }
 #end{
-    font-size:xx-large;
-    background-color: red;
-    height: 105px;
-    width: 105px;
-    border-radius: 50%;
+    font-size:large;
+    background-color: rgb(188, 185, 185);
+    height: 50px;
+    width: 120px;
     cursor: pointer;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 #best_Score{
     font-size: large;
+    color: rgb(96, 95, 95);
 }
 #outer_big_box{
     display: flex;
