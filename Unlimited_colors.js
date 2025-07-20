@@ -12,7 +12,7 @@ let colorfn=()=>{
 start.addEventListener("click",()=>{
     store= setInterval(()=>{
         document.body.style.backgroundColor=colorfn();
-    },3000)
+    },2500)
 })
 end.addEventListener("click",()=>{
     clearInterval(store);
